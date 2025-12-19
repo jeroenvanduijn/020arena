@@ -210,7 +210,7 @@ export default function Aanmelden() {
 
           {/* Embed Section */}
           <section>
-            <h2 style={{ 
+            <h2 style={{
               fontFamily: 'Space Grotesk, sans-serif',
               fontSize: '24px',
               fontWeight: '600',
@@ -221,6 +221,19 @@ export default function Aanmelden() {
             <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '24px' }}>
               Vul hieronder je gegevens in om je aanmelding af te ronden.
             </p>
+
+            <div style={{
+              background: 'rgba(59, 130, 246, 0.1)',
+              border: '1px solid rgba(59, 130, 246, 0.3)',
+              borderRadius: '12px',
+              padding: '16px 24px',
+              marginBottom: '24px'
+            }}>
+              <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '14px', margin: 0 }}>
+                <strong style={{ color: '#3b82f6' }}>Wat gebeurt er na je aanmelding?</strong><br />
+                Na het invullen van het formulier en het doen van de betaling maakt Arena Gym zo snel mogelijk een account voor je aan. Je ontvangt per e-mail een bevestiging van je account.
+              </p>
+            </div>
             
             <div className="embed-container" style={{ minHeight: '2219px' }}>
               <iframe

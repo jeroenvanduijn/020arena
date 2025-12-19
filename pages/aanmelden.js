@@ -7,7 +7,7 @@ export default function Aanmelden() {
     <>
       <Head>
         <title>Aanmelden | CrossFit 020 → Arena Gym</title>
-        <meta name="description" content="Kies je Arena Gym membership. Betaal 8 weken, train 12 weken." />
+        <meta name="description" content="Kies je Arena Gym membership. 12 weken voor de prijs van 8 weken. Start 1 januari 2025." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -37,11 +37,7 @@ export default function Aanmelden() {
             }}>A</div>
             <span style={{ fontWeight: '600', fontSize: '18px' }}>CrossFit 020</span>
           </Link>
-          <div style={{ display: 'flex', gap: '8px' }}>
-            <span style={{ opacity: 0.5 }}>NL</span>
-            <span style={{ opacity: 0.3 }}>|</span>
-            <span style={{ opacity: 0.5 }}>EN</span>
-          </div>
+{/* Taalkeuze verwijderd - nog niet actief */}
         </div>
       </header>
 
@@ -59,8 +55,8 @@ export default function Aanmelden() {
             Kies je <span className="accent-text">Arena Gym</span> membership
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '48px', maxWidth: '600px' }}>
-            Kies uit Bronze, Silver of Gold. Betaal 8 weken, train 12 weken. 
-            Daarna ga je automatisch over op een 4-wekelijks contract.
+            Kies uit Bronze, Silver of Gold. Je krijgt 12 weken toegang voor de prijs van 8 weken.
+            Start 1 januari 2025. Daarna ga je automatisch over op een 4-wekelijks contract.
           </p>
 
           {/* Info + Price Cards Grid */}
@@ -71,8 +67,8 @@ export default function Aanmelden() {
               <h3 style={{ fontWeight: '600', marginBottom: '16px', fontSize: '18px' }}>Wat je krijgt</h3>
               <ul style={{ listStyle: 'none' }}>
                 {[
-                  'Je betaalt nu voor 8 weken.',
-                  'Je traint 12 weken (4 weken gratis).',
+                  '12 weken toegang voor de prijs van 8 weken.',
+                  'Je start op 1 januari 2025.',
                   'Daarna start je 4-wekelijkse incasso.',
                   'Je kunt dan kiezen voor 1-jaar, 2-jaar of flex.'
                 ].map((item, i) => (

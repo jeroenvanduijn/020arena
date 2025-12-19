@@ -16,7 +16,7 @@ export default function Home() {
     },
     {
       q: "Hoe werkt de overstap-actie?",
-      a: "Je kiest een membership (Bronze, Silver of Gold), betaalt direct voor 8 weken en krijgt 12 weken toegang. Daarna ga je automatisch over op een 4-wekelijks contract."
+      a: "Je kiest een membership (Bronze, Silver of Gold) en krijgt 12 weken toegang voor de prijs van 8 weken. Je start op 1 januari 2025. Daarna ga je automatisch over op een 4-wekelijks contract."
     },
     {
       q: "Wat gebeurt er na de 12 weken?",
@@ -78,11 +78,7 @@ export default function Home() {
             }}>A</div>
             <span style={{ fontWeight: '600', fontSize: '18px' }}>CrossFit 020 → Arena Gym</span>
           </Link>
-          <div style={{ display: 'flex', gap: '8px' }}>
-            <span style={{ opacity: 0.5 }}>NL</span>
-            <span style={{ opacity: 0.3 }}>|</span>
-            <span style={{ opacity: 0.5 }}>EN</span>
-          </div>
+{/* Taalkeuze verwijderd - nog niet actief */}
         </div>
       </header>
 
@@ -212,8 +208,8 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }} className="grid-2">
             {[
               { step: '1', title: 'Kies je membership', desc: 'Bronze (fitness), Silver (+ vechtsporten) of Gold (+ CrossFit/Hyrox).' },
-              { step: '2', title: 'Betaal 8 weken vooruit', desc: 'Je betaalt direct voor 8 weken en krijgt 12 weken toegang.' },
-              { step: '3', title: 'Start met trainen', desc: 'Je kunt direct beginnen bij Arena Gym.' },
+              { step: '2', title: '12 weken voor de prijs van 8', desc: 'Je krijgt 12 weken toegang voor de prijs van 8 weken. 4 weken gratis!' },
+              { step: '3', title: 'Start 1 januari 2025', desc: 'Je begint met trainen bij Arena Gym op 1 januari.' },
               { step: '4', title: 'Automatische overgang', desc: 'Na 12 weken start je 4-wekelijkse contract automatisch.' }
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
@@ -233,7 +229,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">Tarieven <span className="accent-text">overstap-actie</span></h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '16px', maxWidth: '600px' }}>
-            Betaal 8 weken, train 12 weken. Daarna ga je automatisch over op een 4-wekelijks contract.
+            12 weken trainen voor de prijs van 8 weken. Start 1 januari 2025.
           </p>
           <div style={{ 
             background: 'rgba(34, 197, 94, 0.1)', 
@@ -489,7 +485,7 @@ export default function Home() {
             Klaar om te <span className="accent-text">starten</span>?
           </h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '40px', maxWidth: '500px', margin: '0 auto 40px' }}>
-            Betaal 8 weken, train 12 weken. Kies het membership dat bij jou past.
+            12 weken trainen voor de prijs van 8 weken. Start 1 januari 2025.
           </p>
           <Link href="/aanmelden" className="cta-button">
             Kies je membership →

@@ -120,7 +120,7 @@ export default function Home() {
             {[
               { value: '2016', label: 'Actief sinds' },
               { value: '2', label: 'Locaties' },
-              { value: '€39', label: 'Vanaf per 4 wkn' },
+              { value: '€54', label: 'Vanaf per 4 wkn' },
               { value: '∞', label: 'Parkeerplek' }
             ].map((stat, i) => (
               <div key={i}>
@@ -249,11 +249,11 @@ export default function Home() {
               <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '2px', color: '#cd7f32', marginBottom: '8px' }}>Bronze</div>
               <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '4px' }}>Fitness Only</h3>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px', marginBottom: '8px' }}>
-                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€78</span>
+                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€108</span>
                 <span style={{ color: 'rgba(255,255,255,0.5)' }}>eenmalig</span>
               </div>
               <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '24px' }}>
-                2x €39 = 12 weken trainen
+                2x €54 = 12 weken trainen
               </div>
               <ul style={{ listStyle: 'none', marginBottom: '32px' }}>
                 {['Onbeperkt fitness gym', 'CrossFit Open Box', 'Zelfstandig trainen'].map((item, i) => (
@@ -275,13 +275,13 @@ export default function Home() {
             {/* Silver */}
             <div className="price-card" style={{ flex: '1 1 280px' }}>
               <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '2px', color: '#9ca3af', marginBottom: '8px' }}>Silver</div>
-              <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '4px' }}>Fighting + Fitness</h3>
+              <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '4px' }}>Fighting & Fitness</h3>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px', marginBottom: '8px' }}>
-                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€108</span>
+                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€138</span>
                 <span style={{ color: 'rgba(255,255,255,0.5)' }}>eenmalig</span>
               </div>
               <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '24px' }}>
-                2x €54 = 12 weken trainen
+                2x €69 = 12 weken trainen
               </div>
               <ul style={{ listStyle: 'none', marginBottom: '32px' }}>
                 {['Onbeperkt fitness gym', 'CrossFit Open Box', 'Zelfstandig trainen', 'Kickboksen groepslessen', 'Boksen groepslessen', 'Zaktraining'].map((item, i) => (
@@ -305,11 +305,11 @@ export default function Home() {
               <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '2px', color: '#fbbf24', marginBottom: '8px' }}>Gold</div>
               <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '4px' }}>Unlimited</h3>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px', marginBottom: '8px' }}>
-                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€158</span>
+                <span style={{ fontSize: '48px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€228</span>
                 <span style={{ color: 'rgba(255,255,255,0.5)' }}>eenmalig</span>
               </div>
               <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '24px' }}>
-                2x €79 = 12 weken trainen
+                2x €114 = 12 weken trainen
               </div>
               <ul style={{ listStyle: 'none', marginBottom: '32px' }}>
                 {[
@@ -334,11 +334,11 @@ export default function Home() {
           <div style={{ marginTop: '48px' }}>
             <h3 style={{ fontSize: '20px', fontWeight: '600', marginBottom: '24px' }}>Tarieven na de overgangsperiode</h3>
             <p style={{ color: 'rgba(255,255,255,0.6)', marginBottom: '24px' }}>
-              Na 12 weken ga je automatisch over op een 4-wekelijks contract. Je kunt dan kiezen voor:
+              Na 12 weken loopt je maandelijks opzegbare abonnement door:
             </p>
-            <div style={{ 
-              background: 'rgba(255,255,255,0.03)', 
-              borderRadius: '12px', 
+            <div style={{
+              background: 'rgba(255,255,255,0.03)',
+              borderRadius: '12px',
               padding: '24px',
               display: 'grid',
               gridTemplateColumns: 'repeat(3, 1fr)',
@@ -346,16 +346,16 @@ export default function Home() {
               marginBottom: '24px'
             }} className="grid-3">
               <div>
-                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>1-jarig contract</div>
-                <div style={{ fontWeight: '600' }}>Standaard tarief</div>
+                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>Bronze</div>
+                <div style={{ fontWeight: '600' }}>€54 per 4 weken</div>
               </div>
               <div>
-                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>Maandelijks opzegbaar</div>
-                <div style={{ fontWeight: '600' }}>+€15 per 4 weken</div>
+                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>Silver</div>
+                <div style={{ fontWeight: '600' }}>€69 per 4 weken</div>
               </div>
               <div>
-                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>2-jarig contract</div>
-                <div style={{ fontWeight: '600', color: '#22c55e' }}>-€10 per 4 weken</div>
+                <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>Gold</div>
+                <div style={{ fontWeight: '600' }}>€114 per 4 weken</div>
               </div>
             </div>
             <div style={{ 

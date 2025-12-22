@@ -93,11 +93,11 @@ export default function Aanmelden() {
               
               {/* Bronze */}
               <div className="price-card" style={{ padding: '24px', textAlign: 'center' }}>
-                <div style={{ 
-                  fontSize: '11px', 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '2px', 
-                  color: '#cd7f32', 
+                <div style={{
+                  fontSize: '11px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  color: '#cd7f32',
                   marginBottom: '8px',
                   fontWeight: '600'
                 }}>Bronze</div>
@@ -105,42 +105,13 @@ export default function Aanmelden() {
                   Fitness Only
                 </h3>
                 <div style={{ marginBottom: '8px' }}>
-                  <span style={{ fontSize: '36px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€78</span>
-                </div>
-                <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '16px' }}>
-                  2x €39 voor 12 weken
-                </div>
-                <div style={{ 
-                  fontSize: '12px', 
-                  color: 'rgba(255,255,255,0.4)',
-                  paddingTop: '16px',
-                  borderTop: '1px solid rgba(255,255,255,0.05)'
-                }}>
-                  Daarna €39 / 4 wkn
-                </div>
-              </div>
-
-              {/* Silver */}
-              <div className="price-card" style={{ padding: '24px', textAlign: 'center' }}>
-                <div style={{ 
-                  fontSize: '11px', 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '2px', 
-                  color: '#9ca3af', 
-                  marginBottom: '8px',
-                  fontWeight: '600'
-                }}>Silver</div>
-                <h3 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '16px', color: 'rgba(255,255,255,0.9)' }}>
-                  Fighting + Fitness
-                </h3>
-                <div style={{ marginBottom: '8px' }}>
                   <span style={{ fontSize: '36px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€108</span>
                 </div>
                 <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '16px' }}>
                   2x €54 voor 12 weken
                 </div>
-                <div style={{ 
-                  fontSize: '12px', 
+                <div style={{
+                  fontSize: '12px',
                   color: 'rgba(255,255,255,0.4)',
                   paddingTop: '16px',
                   borderTop: '1px solid rgba(255,255,255,0.05)'
@@ -149,13 +120,42 @@ export default function Aanmelden() {
                 </div>
               </div>
 
+              {/* Silver */}
+              <div className="price-card" style={{ padding: '24px', textAlign: 'center' }}>
+                <div style={{
+                  fontSize: '11px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  color: '#9ca3af',
+                  marginBottom: '8px',
+                  fontWeight: '600'
+                }}>Silver</div>
+                <h3 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '16px', color: 'rgba(255,255,255,0.9)' }}>
+                  Fighting & Fitness
+                </h3>
+                <div style={{ marginBottom: '8px' }}>
+                  <span style={{ fontSize: '36px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€138</span>
+                </div>
+                <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '16px' }}>
+                  2x €69 voor 12 weken
+                </div>
+                <div style={{
+                  fontSize: '12px',
+                  color: 'rgba(255,255,255,0.4)',
+                  paddingTop: '16px',
+                  borderTop: '1px solid rgba(255,255,255,0.05)'
+                }}>
+                  Daarna €69 / 4 wkn
+                </div>
+              </div>
+
               {/* Gold */}
               <div className="price-card featured" style={{ padding: '24px', textAlign: 'center' }}>
-                <div style={{ 
-                  fontSize: '11px', 
-                  textTransform: 'uppercase', 
-                  letterSpacing: '2px', 
-                  color: '#fbbf24', 
+                <div style={{
+                  fontSize: '11px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  color: '#fbbf24',
                   marginBottom: '8px',
                   fontWeight: '600'
                 }}>Gold</div>
@@ -163,18 +163,18 @@ export default function Aanmelden() {
                   Unlimited
                 </h3>
                 <div style={{ marginBottom: '8px' }}>
-                  <span style={{ fontSize: '36px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€158</span>
+                  <span style={{ fontSize: '36px', fontWeight: '700', fontFamily: 'Space Grotesk, sans-serif' }}>€228</span>
                 </div>
                 <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '16px' }}>
-                  2x €79 voor 12 weken
+                  2x €114 voor 12 weken
                 </div>
-                <div style={{ 
-                  fontSize: '12px', 
+                <div style={{
+                  fontSize: '12px',
                   color: 'rgba(255,255,255,0.4)',
                   paddingTop: '16px',
                   borderTop: '1px solid rgba(255,255,255,0.05)'
                 }}>
-                  Daarna €79 / 4 wkn
+                  Daarna €114 / 4 wkn
                 </div>
               </div>
             </div>
